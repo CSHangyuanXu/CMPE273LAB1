@@ -1,0 +1,53 @@
+.header {
+  position: relative;
+  z-index: 5;
+  background-color: #333;
+
+  .content {
+    width: 1090px;
+    height: 36px;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #ccc;
+
+    .left-logo {
+      height: 80%;
+
+      img {
+        height: 100%;
+      }
+    }
+
+    .right-menu {
+      .menu-list {
+        display: flex;
+
+        .site-nav-item {
+          font-size: 12px;
+          height: 36px;
+          line-height: 36px;
+          cursor: pointer;
+          margin-left: 10px;
+
+          &:hover {
+            color: #fff;
+          }
+        }
+      }
+
+    }
+  }
+
+  .search-box {
+    height: 140px;
+    position: relative;
+    background-color: #fff;
+    box-shadow: 0 0 3px 0 rgb(0 0 0 / 20%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
