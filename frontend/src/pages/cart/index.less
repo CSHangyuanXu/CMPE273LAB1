@@ -1,0 +1,70 @@
+.cart-page {
+
+  * {
+    margin: 0;
+  }
+
+  .main {
+    padding-top: 25px;
+
+    .count-price {
+      padding-top: 30px;
+      font-size: 18px;
+      text-align: right;
+
+      .price {
+        color: #d7282d;
+        font-size: 20px;
+      }
+    }
+
+    .submit-box {
+      text-align: right;
+      padding-top: 10px;
+
+      button {
+        width: 120px;
+      }
+    }
+
+    .check-box-list {
+      align-items: center !important;
+      box-shadow: 1px 1px 5px rgba(0, 0, 0, 20%);
+      margin-bottom: 20px;
+      border-radius: 10px;
+      padding: 5px 10px;
+    }
+
+
+    .list {
+      width: calc(1090px - 180px);
+      display: flex;
+
+      .cover {
+        width: 160px;
+        height: 100px;
+        object-fit: cover;
+        margin-right: 20px;
+      }
+
+      .goods-info {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        .title {
+          font-size: 18px;
+          font-weight: 500;
+          color: #000;
+        }
+
+        .active-list {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+        }
+      }
+    }
+  }
+}
