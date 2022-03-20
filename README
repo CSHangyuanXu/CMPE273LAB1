@@ -1,0 +1,10 @@
+How to use this APP?
+First step:
+  Make sure you have Node.js and reactJS.
+Secone Step:
+  DownLoad code to your computer.
+Third Step:
+  In terminal, type  "cd backend" -> "npm install" -> "npm start"
+  Then, into frontend "npm install" -> "npm start"
+Final Step:
+  Go to http://localhost:8000/home, you can use this app.
